@@ -1,0 +1,6 @@
+# dataset.yaml
+train: DOTA-v1.5_train/labels  # 训练集图像路径
+val: DOTA-v1.5_val/labels      # 验证集图像路径
+
+nc: 2                             # 类别数量（根据您的数据集调整）
+names: ['small-vehicle', 'large-vehicle']  # 类别名称（根据您的数据集调整）
